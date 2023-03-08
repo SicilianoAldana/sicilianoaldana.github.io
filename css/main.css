@@ -1,0 +1,266 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(211, 211, 211);
+    transition-property: all;
+    font-family: 'raleway', sans-serif;
+}
+
+.container-1{
+background-image: url(../img/Arianna_Baker.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1100px;
+    height: 700px;
+    position: relative;
+    top: -20px;
+}
+
+.menu{
+    padding: 0px;
+    width: 1100px;
+    height: 50px;
+    list-style: none;
+    margin: auto;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: gray;
+    padding: 20px;
+    display: block;
+    position: relative;
+    left: 30px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background-color: rgb(211, 211, 211);
+    transition: 0.7s;
+    height: 10px;
+}
+
+h3, h4{
+    color: orangered;
+    font-weight: bold;
+}
+
+.container-1{
+    margin: auto;
+    position: relative;
+}
+
+.presentacion{
+    font-family: 'raleway', sans-serif;
+    font-size: 30px;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 60px;
+    left: 150px;
+}
+
+.container-2{
+    width: 700px;
+    margin: auto;
+    top: 10px;
+    position: relative;
+    right: 20px;
+}
+
+.sobre-mi{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20px;
+}
+
+#sobre-mi-2{
+    position: relative;
+    top: 55px;
+    left: 20px;
+}
+
+.herramientas{
+    position: relative;
+    top: 20px;
+    margin-top: 20px;
+}
+
+.herramientas ul {
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+}
+
+
+.experiencia-educacion{
+    margin-top: 150px;
+    position: relative;
+    top: 30px;
+}
+
+#portfolio{
+    position: relative;
+    top: 40px;
+    font-family: 'raleway', sans-serif;
+    margin-top: 220px;
+}
+
+.container-portfolio{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+}
+
+.container-portfolio img{
+    width: 90px;
+    height: 90px;
+    
+}
+
+.contacto{
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 500px;
+}
+
+.formulario{
+    width: 400px;
+    height: 380px;
+    background-color: white;
+    color: orangered;
+    font-weight: bold;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .nombre-usuario{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    top: 20px;
+}
+
+.nombre-usuario input{
+    width: 100%;
+    padding: 0 5px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.apellido-usuario input {
+    width: 100%;
+    padding: 0 5px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+form .apellido-usuario {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    top: 20px;
+}
+
+.email-usuario input {
+    width: 100%;
+    padding: 0 5px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+form .email-usuario {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    top: 20px;
+}
+
+form .mensaje {
+    position: relative;
+    margin: 30px 0;
+    top: 20px;
+}
+
+.mensaje label{
+    color: rgb(116, 116, 116);
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 16px;
+    position: relative;
+    left: 5px;
+}
+
+.mensaje textarea{
+    border: solid 2px #adadad;
+    position: relative;
+    top: 5px;
+}
+
+#error{
+    font-size: 20px;
+    width: 400px;
+    margin: auto;
+}
+
+input[type="submit"]{
+    background-color: orangered;
+    border: 1px solid;
+    border-radius: 15px;
+    position: relative;
+    top: 10px;
+    width: 70%;
+    height: 30px;
+    left: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: arial;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: orangered;
+}
+
+.btn-scroll-arriba{
+    position: fixed;
+    bottom: 180px;
+    right: 230px;
+    padding: 15px 20px;
+    background: orangered;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 100%;
+    cursor: pointer;
+    transform: translateY(1000px);
+    transition: 0.3s;
+}
+
+.btn-scroll-arriba-on{
+    transform: translateY(0);
+}
